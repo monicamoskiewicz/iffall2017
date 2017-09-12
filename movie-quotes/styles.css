@@ -1,0 +1,24 @@
+h1,h2 {
+	text-align: left;
+	color: red;
+	font-family: Georgia;
+	
+}
+
+p{
+	color:white;
+	font-family: Georgia;
+	line-height: 150%;
+
+}
+
+body {
+	background-color: black;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+em {
+	color: red;
+}
+
