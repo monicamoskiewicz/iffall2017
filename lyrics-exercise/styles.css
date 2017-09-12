@@ -1,0 +1,41 @@
+h1 {
+	text-align: left;
+	color: #ffff00;
+	font-family: Georgia;
+	
+}
+
+h2 {
+	text-align: left;
+	color: white;
+	font-family: Georgia;
+
+}
+
+h3 {
+	text-align: left;
+	font-family: sans-serif;
+	color: blue;
+}
+
+
+p{
+	color:black;
+	font-family: Georgia;
+	line-height: 150%;
+
+}
+
+body {
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+em {
+	background-color: #d3d3d3;
+}
+
+body {
+	background-color: #D2B48C;
+}
+
