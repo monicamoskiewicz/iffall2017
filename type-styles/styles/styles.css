@@ -1,0 +1,137 @@
+body {
+	margin-left: 100px;
+	font-family: 'Ubuntu'
+}
+
+
+.header {
+	text-align: center;
+}
+
+h1{
+	font-size: 24pt;
+}
+
+
+h2 {
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 11pt;
+	color: grey;
+	font-family: monospace;
+	padding-bottom: 0;
+}
+
+
+p{
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.weightFontNormal {
+	font-weight: normal;
+}
+
+.weightFontBold {
+	font-weight: bold;
+}
+
+.spacingLetterNormal {
+	letter-spacing: normal;
+}
+
+.spacingLetter3em {
+	letter-spacing: .3em;
+}
+
+.spacingLetter-06em {
+	letter-spacing: -.06em;
+}
+
+.decorationTextNone {
+	text-decoration: none;
+}
+
+.decorationTextUnderline {
+	text-decoration: underline;
+}
+
+.decorationTextLine-through {
+	text-decoration: line-through;
+}
+
+.decorationTextOverline {
+	text-decoration: overline;
+}
+
+.transformTextNone {
+	text-transform: none;
+}
+
+.transformTextUppercase {
+	text-transform: uppercase;
+}
+
+.transformTextLowercase {
+	text-transform: lowercase;
+}
+
+.transformTextCapitalize {
+	text-transform: capitalize;
+}
+/*.weightFont {
+
+}
+
+.bold {
+
+}
+
+."weightFont bold" {
+	font-weight: bold;
+}
+
+.class="spacingLetter normal" {
+	letter-spacing: normal;
+}
+
+.class="spacingLetter .3em" {
+	letter-spacing: .3em;
+}
+
+.class="spacingLetter -.06em" {
+	letter-spacing: -.06em;
+}
+
+.class="decorationText none" {
+	text-decoration: none;
+}
+
+.class="decorationText underline" {
+	text-decoration: underline;
+}
+
+.class="decorationText line-through" {
+	text-decoration: line-through;
+}
+
+.class="decorationText overline" {
+	text-decoration: overline;
+}
+
+.class="transformText none" {
+	text-transform: none;
+}
+
+.class="transformText uppercase" {
+	text-transform: uppercase;
+}
+
+.class="transformText lowercase" {
+	text-transform: lowercase;
+}
+
+.class="transformText capitalize" {
+	text-transform: capitalize;
+}*/
