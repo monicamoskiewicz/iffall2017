@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	background-color: #d5fdd5;
+	margin-bottom: 100px;
+}
+
+img {
+	margin-right: 300px;
+	padding-top: 30px;
+}
+h1 {
+	color: black;
+	font-family: 'Shrikhand', cursive;
+	font-size: 30pt;
+	padding: 0px;
+}
+
+h2 {
+	color: black;
+	font-family: 'Shrikhand', cursive;
+	font-size: 24pt;
+
+}
+
+h3 {
+	font-family: Georgia;
+	color: red;
+}
+
+
+p{
+	color:black;
+	font-family: Georgia;
+	line-height: 150%;
+
+}
+
+body {
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+em {
+	font-weight: bold;
+}
+
+.chorus {
+	text-decoration: underline;
+}
+
+
