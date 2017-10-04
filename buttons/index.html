@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons &mdash; James Fawcett</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_cocacola img {
+				padding-top: 50px;
+				width: 160px;
+			}
+			
+
+			a#btn_cocacola:hover {
+				filter: opacity(50%);
+				display: block;
+			}
+
+			a#btn_apple img {
+				padding-top: 80px;
+				width: 160px;
+			}
+				a#btn_apple:hover {
+				filter: opacity(50%);
+				display: block;
+			}
+
+
+			a#btn_ibm img {
+				padding-top: 80px;
+				width: 160px;
+			}
+			a#btn_ibm:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+
+			a#btn_nerf img {
+				padding-top: 80px;
+				width: 160px;
+			}
+			a#btn_nerf:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_harley img {
+				padding-top: 80px;
+				width: 160px;
+			}
+			a#btn_harley:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_mk img {
+				padding-top: 80px;
+				width: 160px;
+			}
+			a#btn_mk:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_ideo img {
+				padding-top: 50px;
+				width: 160px;
+			}
+			a#btn_ideo:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_lyft img {
+				padding-top: 80px;
+				width: 160px;
+			}
+			a#btn_lyft:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_sam img {
+				padding-top: 80px;
+				width: 160px;
+			}
+			a#btn_sam:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_dime img {
+				padding-top: 50px;
+				width: 160px;
+			}
+			a#btn_dime:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_cartoon img {
+				padding-top: 70px;
+				width: 160px;
+			}
+			a#btn_cartoon:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_nbc img {
+				padding-top: 70px;
+				width: 160px;
+			}
+			a#btn_nbc:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_nike img {
+				padding-top: 70px;
+				width: 160px;
+			}
+			a#btn_nike:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_tesla img {
+				padding-top: 50px;
+				width: 160px;
+			}
+			a#btn_tesla:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_color img {
+				padding-top: 70px;
+				width: 160px;
+			}
+			a#btn_color:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_moo img {
+				padding-top: 50px;
+				width: 160px;
+			}
+			a#btn_moo:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_fit img {
+				padding-top: 50px;
+				width: 160px;
+			}
+			a#btn_fit:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_new img {
+				padding-top: 90px;
+				width: 160px;
+			}
+			a#btn_new:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_npr img {
+				padding-top: 90px;
+				width: 160px;
+			}
+			a#btn_npr:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_insta img {
+				padding-top: 90px;
+				width: 160px;
+			}
+			a#btn_insta:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+			a#btn_bike img {
+				padding-top: 90px;
+				width: 160px;
+			}
+			a#btn_bike:hover {
+			filter: opacity(50%);
+			display: block;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		
+		<div id="main_content">
+
+			<h1>Button Styling &mdash; Monica Moskiewicz</h1>
+			
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.amazon.com" target="_blank" id="btn_amazon"><i class="fa fa-amazon"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter">twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo">indiegogo</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.coca-cola.com/" target="_blank" id="btn_cocacola"><img src="https://vignette2.wikia.nocookie.net/logopedia/images/6/6f/Coke%2BDisc.jpg/revision/latest?cb=20130530130832"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.apple.com/" target="_blank" id="btn_apple"><img src="https://www.apple.com/news/images/og.png?201709191033"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.ibm.com/" target="_blank" id="btn_ibm"><img src="https://static3.seekingalpha.com/images/marketing_images/fair_use_logos_products/sacl_ibm_ibm.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Nerf_logo.svg/1200px-Nerf_logo.svg.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.harley-davidson.com/" target="_blank" id="btn_harley"><img src="http://ddunleavy.typepad.com/.a/6a00d8345264db69e201a511c50075970c-pi"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.michaelkors.com/" target="_blank" id="btn_mk"><img src="http://etfdailynews.com/wp-content/uploads/2016/11/michael-kors-logo.jpg"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://ideo.org" target="_blank" id="btn_ideo"><img src="https://i.stack.imgur.com/GbVtJ.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft"><img src="https://i0.wp.com/ridesharetips.com/wp-content/uploads/2014/07/header2.jpg?resize=300%2C176"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.samsung.com/us/" target="_blank" id="btn_sam"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2000px-Samsung_Logo.svg.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.dimecitycycles.com/" target="_blank" id="btn_dime"><img src="http://www.dealscove.com/images/2015102902/dime-city-cycles_1446084719.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cartoon"><img src="http://vignette1.wikia.nocookie.net/cartoonnetwork/images/f/fe/CARTOON_NETWORK_logo.png/revision/latest?cb=20111206183320"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nbc.com/the-tonight-show" target="_blank" id="btn_nbc"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/1956_NBC_logo.svg/1280px-1956_NBC_logo.svg.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike"><img src="https://www.festisite.com/static/partylogo/img/logos/nike.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla"><img src="http://www.freelogovectors.net/wp-content/uploads/2016/11/tesla-motors-logo_1.jpg"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://thecolorrun.com/" target="_blank" id="btn_color"><img src="https://www.frugalcouponliving.com/wp-content/uploads/2015/08/the-color-run-logo.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.moo.com/us/" target="_blank" id="btn_moo"><img src="https://www.moo.com/.resources/front-end-resources/images/favicons/favicon-196.png"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.fitbit.com/home" target="_blank" id="btn_fit"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8EsLkAqrQArbYAqbMAsbr3/f3T7vDy+/vr+Pn7/v7X8PHM6+3q9/iI0te/5ul6zdNLv8ax4eTA5uni9PVuyc9gxcue2t40ucGN09io3eFJvsW34+Zaw8p1y9GW19vpMva1AAAMKUlEQVR4nO1d6bqqOgyVVhAVZ1Ac2L7/W14mhbYZyhXLwY/1d8M2IW3SJqvpbDZhgh3C0zM5n5PnKRxaku/geJBClhDycBxamv6x84X03pDCPw0tUc9IhKdB/A0tU58IUqkrmNsxXQ0tV28IfUDBQsVgaMn6AmTBSsWhJesJe0TBXMXt0LL1grXhZFruJh5auj5wQE2YG/E8tHQ9gDLhbxhxS5gwN+JzaPk+h08p6Hnjd6fLOa2hGH1MjMhpmGu4HlrCT/Egp2E+EUe/Aj9yGo5+H8Xa8DG0hJ+CnYfR0BJ+ipjTcPwhn1bQ84aW73Mk9JomGVq+z3Gi16Wjn4YzZtk2/kVbjiO1Pxx9NCyBJTHyWXgfWrZ+sME1XA4tW0/Aov5PuJkKD1BFMfpFdwuRZ4xU6S+GlqpXBGeh6ChF8jsZ7xqLw1zWSkopstFvfCEsL5mfa+el2e1XfCiAIAxHn5iZMGHChAkTJkyY0EK8e27/9tfjT67RZ7P11q9JcFJ4yXhyAav16fE4rdmd4eKg7CalSEdRv4mfd1HaRYj7k6pWrJK5kREQ98HqG6twE9rs1teZyk3Et8BrkCMmhyk0rq+pJ3LDpH/cTNkLTWwp9vCTOyyBLK69y88hSt9iS+HfiCdjyCzShwYeqmCuomOOWJCpskgfHXcxlhI2VST5RYL6ir0jNvODWBECz3l7OuE7oNk3c4exETTLHP7GHeoWdLHR8/zva1YjgAUA0/RXQmpxUR5dMPQihySxDJPaDBxLugasjFOKxlg/7yiPjNZ1pRkCcP5s+UI7BNA0xup5R0ZMcQmMwyKcWVqP0h+jgpui8QL/1vKiPUvEtxLtqWuhoCMeHPWt9W/M2aU1TDnqTfW8/gm/AnyQmmVd6tkSTcDgKHDV/3dCTyHXHWrAWDEE2naIo8JKAxcTkRxN2hYg5KV+V2psHE3+A4NrqK5reA0b78staMav4b9jwxWpoZpvQJZ3LfjvVYrdPHSyNKW8h86mZH1p4zluVr704EJDcsJ0edZTvL/Fos3VUSlinSL1c5OcYdrz1mpN44SEsyIE0Eky3HmLeWshe7ZQUbqhAVwwUYBZgm60qhey1qMcJ9xzyLjFfA3A2qbFVm3OuiV3eQzEKQhoWUwZUTudB/Pf2s9nwA98ByAtFh5C1CZf307iKZ36+Y0L5SrcTA8ikOOSuGXETnuU2UCBY+RrOGnpRCnQBMMT45eaAlOUaZdjtETQztTL+YEonVzAkAEmH69ErHVPe1++inzCS2gfpxu8kNeDax1bNMs1TIeCeHe7Xh58RTDQKmZy/oeFbtjgnnA8RLujNnhRJ5PC3xINXBZAHUe6yc98ivixTe73ZPvgqp1XqXuxzGGYcILgWhi8tp7w/n6SrbC+nP1iVB+u0c8xwluwKqBPmDBhgivEp+N1+7zt1r952mGX+KJpBncbS8e7cB2dogV/vGa5lSoNTs7PI1gi7PapFAWkf6ZtspXAMlach7LjKrQJ4sut19575stS9CQftEyvXhqAzri8leuwwijk0FttdRJcbhNkg42lD4rtFkKc+xqig2ifzsOpfsBpTA9LkvyRxdoe2mytomtyT+/n/YMb9XGqn7DECKNPLEkuzIPfpII9dBJbJ15llmLoHfS0mSq2Me5yHcE9LZrEANIYxLP1R4EG6mpRBE52j5r78rOSl5AixT10BooCjSIiEWWkotj8cf4ThrtZlGYp4mb6pNcGkemj0XTiHeubaFQ5GPaNknK2oAgY1JAwm7d9NMXmBPOaAi6b4CUlPUnOCt22iU2lSkux6mYRGRq6kG8NjvsL1RdD/Yq80A1zjyBmKb/QctrmsEYzlCjpFyDR0ol6pRBhU117l4DvVgq2GUlQOQkrmmMTC2Lu4c+Wz7dHEU++bH4g5qioLzREOLAkCDsPwokZVe4OHemshH7lTel2jO0XXjMHeUNAoZwqZOov0CVgJSp3Yn2xbLIG1QuYFwMosZ0YQzRDuHzh/Un4CnABsWFl0F6oVu04ZcJ0Nk9SanXq8nzD9x4gtBO6Is5Z8RjrF6qZhk5ygJx+oP+h8izPVXuPEgtPWj5felPrafh2Zuh/l+ZZHHoKqGQFi5H3MroVJeolsFW4r1HyxDa4hkbrdGbhoRrdQpAXUY0e/A3ull+ukah4AZ+4ZkhkNJTKJsNi5L2Gte3ASztrGJMaes40tAsWtYa2K5oCpYa4HzMZJAyhUh2lFmHrNUpRopWGUkMuzCoSlfEF/TPgaegRonoai2/9GiRcp9OXQKWnsWPbVpiX/x71TUC0oP2YGi14Sd7RwnKzUEULW4MXqAYJvtQ0FKTdusZ54Q6UtOiUgaUNyxWCZfBsSYQRKiHCKkmo7M7zfucS7LyHWNr93+YH6t3DDf4o4FkxslO+lvzowBG2G3lpl89R4E1/BElz8LFQYogYNue2RPPGMXFk2+oH6jFiuQLyWtR36CwrxlfFfY1v2JzxS4n1ozXqHwhsJ2Lrmy/MlCZGQ0JDIuB56RmjDGqLLVFz/vDP0ojt6KWfKZ/jtPguDNoHMfjmah6Zjy3NaQt+51lCy3u3ClVSpFQXgQg86Qwzs/DUtNFEgFsCtUnTdutYnXO7fKZzUbauODOsf7OJgJRYYv+M8UuNac5EfbXngE0iAzpVG0aP486mhKqSz8iaJGxFKM1FZuq1EWczbT+jpIbPtOkhsycrHTuzBiDhWxGQuAwoOJsd+fDycSV4c3zuk7/rjbV5kOjVtT8k2/wAitYlgIQ6UR+tfsVpy5fNvq7FlWzDLV4F3qTgOQBwllMVg/wV5z1tom2W+n6aXZleL0ejCizFHi6FoRYv5uA/zEldXd700lI9b4+afHnHHLXrMn5XFPTSecE28e6MyW9A3Z+s1/5DCJbxxsYZXnyNMSRxdspYsSi6bNVttrzkOBbWV0fE0fF4O61/VLsJE4ZCvI4W8W8SYmdlD8KafZlux9MY0h6PNg1OCv85jnMXm1uSFiErTRiiX+TrK7GBuiZ2w+7eYl+Si449yLc6DDMh49vf+ZAlT3aRtNC2RHKeIXYE738u3gB6EH4dx3KPXx0ovNJcbNMsUoIOJEBYzcUbrhfTO1/N0xDNN2H2JXgOmDqv7nhHa8wWmWJmxMqZQHqVTnubGfUvAqjOSB/ep4Keo1JRJ7gSeajyFxzeQwebxYf8HVXq0wiubAnR3Q1RWC0OKnRQiVvtBT6r7+pIPkq/MXnVzMBTjGJR9nR1CxZe9jT7VNG5d8WIFiVSR40jlsRBFd2IXPOneWsm2tCAhJOLlIhvbXxjjsvVqvuHVjVgJ8eZKHKiXviniYxKMeJkRb53kgalJNH7i7IlsMY72jEVXFwKSUxDYxT13xnSRc+9qTPk/9XQjnvgQkOSkK1txvnOkM0otSzMO9CQ9jTaZrhDD9pOnKjvogvrizsH0+IgW7HxTFb2N0B9bN2ZsxG/oSvYRXwn9yPgvHeTCMexRtvx02rV5qawS/DajGeZidh+wYaN5+gWaHz3ZKY1abGVA4g2uydXp+wRDgR4mo80ompzPl64u+ACyWJAuagTxdxTN7R8FoM8Md4vgIOT0oO9AL4aMzYKZNtEZ/vfGgYdT/qYm8NyoMDl8QyJ1m1mX+X1SKJJ8wpWEVCQyQi7TnqvLq2eCnsyTkH8S/hsO5HVH+Sy+eiapX6a7R/c8Dnq7CzpIX4frczIf5wjEzybljNFJeeCJ+jBfh7/NEvthdP2UBK5/APD44oA/rGza5A+xSqObaorN1/pMST3P8gDirYvxrmXPMZRxe+OYLG7PSInGeAJEyZMmDBhwoQJCoIw/FnS72wWHpM03yh46Y8eiFhkSnfPf3zD3h3BWT9/mPzWlgi4EZ64x3uEgO8PHiR39h1gpc+fURG/W12/eHas6HC3+jhBVVtc1pK+B7J+6P6Sqv6B3sP+M86G6U/jhDzyXTBlXXdl62+Ba8/hhvP7TXC0WONq1tGBa6WKNrUZDVgNR3CwkMaO09DRAYrvgeW1jX4ecoRDMf60DUM4/IFlG91adjz1eRx0yAeuuR4fOtxaPVJQRvwJE1IzEb8GemSwv2dmrFjBbLyBLmn+CkA23i8pOINOrAucjzpORMq1ZFKko1+Pmthl8n3NJNcddawId5f9+by/nMa/2p7gHP8B5MSJC0GU7C8AAAAASUVORK5CYII="> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.newyorker.com/" target="_blank" id="btn_new"><img src="http://vignette2.wikia.nocookie.net/logopedia/images/0/03/The-new-yorker-logo.jpg/revision/latest?cb=20131004223606"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.npr.org/" target="_blank" id="btn_new"><img src="data:image/png;base64,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"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.instagram.com/" target="_blank" id="btn_insta"><img src="https://imageog.flaticon.com/icons/png/512/69/69366.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"> </a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.electrabike.com/" target="_blank" id="btn_bike"><img src="https://www.bikeexchange.co.nz/dbimages/ArticleImage/53/53/medium_Electra_Logo.jpg"> </a>
+			</div>
+
+
+		</div>	
+
+	</body>
+</html>
