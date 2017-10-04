@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-top: 0;
+	margin-bottom: 0em;
+	text-align: center;
+	color: black; 
+}
+
+h1 {
+	font-size: 82px;
+	padding-top: 154px;
+}
+
+h2 {
+	font-size: 30px;
+}
+section#top_section {
+/*	background-color: rgba(255,0,0,.25);*/
+	background-image: url(https://i.gse.io/gse_media/116/6/1469829447-Chicago_Skyline_Cruise_All_White_Boat_Party_tickets.jpg?p=1);
+	height: 480px;
+
+}
+
+section#second_section {
+	/*background-image: url(https://s3.amazonaws.com/architecture-org/files/modules/wide_sml_millennium-park-the-bean-pete-capp-01.jpg);
+	height: 400;
+	width: 300;*/
+	/*float: right;*/
+	/*background-repeat: none;*/
+	background-color: yellow;
+	height: 646px;
+	box-sizing: border-box;
+}
+
+#second_section p {
+	font-size: 18px;
+	padding-left: 18px;
+	padding-right: 22px;
+	padding-top: 16px;
+	line-height: 21px;
+}
+
+#second_section h2 {
+	font-size: 40px;
+	padding-top: 42px;
+	text-align: center
+}
+
+#second_section img {
+	float: right;
+	padding-right: 17px;
+	padding-top: 15px;
+	margin-left: 24px;
+}
+
+.secondbody {
+	box-sizing: border-box;
+	width: 993px;
+	height: 472px;
+	margin: auto;
+}
+
+section#third_section {
+	background-color: blue;
+	height: 677px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#third_section h2{
+	font-size: 40px;
+	padding-top: 42px;
+}
+
+
+#third_section h4{
+	font-size: 20px;
+	padding-top: 8px;
+	text-align: left;
+}
+
+.thirdbody {
+	width: 960px;
+	height: 400px;
+	margin: auto;
+	padding-top: 24px;
+
+}
+
+#third_section p{
+	margin: 0;
+	padding: 10px 0 43px 0;
+	letter-spacing: 0.08px;
+	font-size: 18px;
+	line-height: 1.2em;
+}
+
+.left {
+	float: left;
+	width: 440px;
+}
+
+.right {
+	float: right;
+	width: 440px;
+	padding-right: 39px;
+}
+
+.thirdbody img {
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin-right: 13px; 
+}
+
+section#fourth_section {
+	background-color: orange;
+	height: 416px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#fourth_section h2{
+	font-size: 41px;
+	padding-top: 43px;
+}
+
+#fourth_section p {
+	font-size: 27px;
+	padding-left: 19px;
+	padding-top: 30px;
+	line-height: 30px;
+	width: 715px;
+	height: 150px;
+	margin: auto;
+	letter-spacing: .1px;
+}
+
+section#fifth_section {
+	background-color: rgba(255, 0, 0, 0.25);
+	height: 96px;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+.floatright .floatleft{
+	 width: 950px;
+  	height: 30px;
+
+}
+
+h3 {
+	float: left;
+	font-size: 18px;
+    padding-left: 3px;
+    letter-spacing: 0.1px;
+}
+
+.floatright {
+	float: right
+}
