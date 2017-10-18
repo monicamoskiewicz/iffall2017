@@ -1,0 +1,55 @@
+body {
+	background-color: rgba(122, 223, 251, 100);
+	/*width: 1010px;
+	margin-left: 215px; */
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+#butterflyone {
+	z-index: 2;
+	margin-top: 0;
+	padding-top: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	float: right;
+}
+
+#butterflytwo {
+	float: left;
+	transform: rotate(100deg);
+	padding-top: 80px;
+	padding-left: 100px;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 125px;
+	margin-top: 100px;
+	margin-left: 500px;
+}
+
+h2{
+	font-size: 50px;
+	padding-left: 550px;
+}
+
+p {
+	text-align: left;
+	border-top: 10px solid yellow;
+	margin-left: 500px;
+	width: 450px;
+	margin-bottom: 100px;
+}
+
