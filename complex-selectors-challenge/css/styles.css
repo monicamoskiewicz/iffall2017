@@ -24,7 +24,7 @@ h2 {
  
 
 img { 
-width: 100%;
+	width: 100%;
 }
 
 .cast li {
@@ -47,7 +47,7 @@ width: 100%;
 }
 
 #game-of-thrones .seasons li:last-child::after {
-	content: '*';
+	content: "*";
 }
 
 #game-of-thrones .seasons::after {
