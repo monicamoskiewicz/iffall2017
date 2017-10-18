@@ -13,9 +13,8 @@ a.see-all {
 
 h1 {
 	font-size: 2.5rem;
-	font-weight: lighter;
-	border-top: 1px
-	color: gray;
+	opacity: 0.5;
+/*	border-top: 1px;*/
 }
 
 h2 {
@@ -31,37 +30,35 @@ img {
 .cast li {
 	width: 25%;
 }
-
-li#game-of-thrones, li#unbreakable-kimmy-schmidt{
-	border-top: 1px gray;
+ 
+#game-of-thrones, #unbreakable-kimmy-schmidt {
+	border-top: 1px;
 	border-top-style: solid;
 }
 
-nav li.selected {
+.selected a{
+	font-weight: bold;
 	color: black;
-	font-weight: bold;
 }
 
-section.cast div {
+.cast li div {
 	font-size: 0.8rem;
-}
-
-section.cast a div {
 	font-weight: bold;
 }
 
-section.cast a div:last-child {
-	font-style: italic;
+
+.cast li div + div {
 	font-weight: normal;
+	font-style: italic;
 }
 
 #game-of-thrones .seasons li:last-child::after {
-	content: "*";
+	content: '*';
 }
+
 
 #game-of-thrones .seasons::after {
 	content: '* In production';
 	font-size: 0.7rem;
 	color: #999;
-	
 }
