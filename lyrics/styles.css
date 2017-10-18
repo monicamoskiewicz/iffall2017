@@ -12,19 +12,25 @@ body {
 #butterflyone {
 	z-index: 2;
 	margin-top: 0;
-	padding-top: 0;
+	padding-top: 90px;
+	padding-left: 1000px;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	float: right;
+	position: fixed;
 }
 
-#butterflytwo {
+
+
+#butterflythree {
 	float: left;
 	transform: rotate(100deg);
-	padding-top: 80px;
-	padding-left: 100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	position: fixed;
 }
 
 h1, h2, h3, h4, h5 {
