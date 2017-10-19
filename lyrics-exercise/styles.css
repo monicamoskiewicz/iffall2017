@@ -1,21 +1,30 @@
+body {
+	text-align: center;
+	background-color: #d5fdd5;
+	margin-bottom: 100px;
+}
+
+img {
+	margin-right: 300px;
+	padding-top: 30px;
+}
 h1 {
-	text-align: left;
-	color: #ffff00;
-	font-family: Georgia;
-	
+	color: black;
+	font-family: 'Shrikhand', cursive;
+	font-size: 30pt;
+	padding: 0px;
 }
 
 h2 {
-	text-align: left;
-	color: white;
-	font-family: Georgia;
+	color: black;
+	font-family: 'Shrikhand', cursive;
+	font-size: 24pt;
 
 }
 
 h3 {
-	text-align: left;
-	font-family: sans-serif;
-	color: blue;
+	font-family: Georgia;
+	color: red;
 }
 
 
@@ -32,10 +41,11 @@ body {
 }
 
 em {
-	background-color: #d3d3d3;
+	font-weight: bold;
 }
 
-body {
-	background-color: #D2B48C;
+.chorus {
+	text-decoration: underline;
 }
+
 
