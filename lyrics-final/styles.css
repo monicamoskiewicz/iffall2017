@@ -1,0 +1,144 @@
+body {
+  background-color: pink;
+  opacity: 0.8;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 200pt;
+	margin: 0;
+	padding: 0;
+  padding-left: 70px;
+	text-align: left;
+	letter-spacing: 20px;
+	line-height: 250px;
+  float: left;
+  padding-top: 90px;
+/*	  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;*/
+/*	color: blue;
+	  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;*/
+}
+
+
+h1 {
+	  color: purple;
+	  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}
+
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50pt;
+  margin: 0;
+  padding: 0;
+  padding-top: 490px;
+  text-align: left;
+  float: left;
+  color: blue;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+
+
+}
+img {
+  margin: auto;
+  display: block;
+  width: 900px;
+  height: 900px;
+  padding-top: 20px;
+
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  font-size: 14px;
+  float: right;
+  padding-right: 170px;
+  padding-top: 80px;
+  height: 470px;
+  width: 320px;
+  overflow: scroll;
+
+}
+
+.button_container {
+    width: 300px;
+        height: 75px;
+        
+}
+
+
+      a#btn_spotify {
+          display: inline-block;
+        height: 50px;
+        box-sizing: border-box;
+        border-radius: 25px;
+        margin: auto;
+     /*   margin: auto;
+        margin-top: 100px;*/
+        margin-top: 70px;
+        margin-left: 70px;
+
+        padding: 10px 40px 0 40px;
+        background-color: #2ebd59;
+        border: 2px solid #2ebd59;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a#btn_spotify:hover {
+        background-color: #fff;
+        border: 2px solid #000;
+        color: #000;
+      }
+
+      a#btn_apple {
+        display: inline-block;
+        height: 40px;
+        box-sizing: border-box;
+        border-radius: 4px;
+         margin: auto;
+         margin-left: 260px;
+         width: 136px;
+       /* 
+
+        margin-top: 105px;*/
+        padding: 10px 30px 0 30px;
+        background-color: #FF004D;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-size: 14px;
+          line-height: 1.42861;
+          font-weight: 400;
+          letter-spacing: -.016em;
+      }
+
+      a#btn_apple:hover {
+       filter: opacity(50%);
+      display: block;
+      }
