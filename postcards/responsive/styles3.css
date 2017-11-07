@@ -1,0 +1,56 @@
+body { 
+	font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif; 
+	margin: 0;
+	padding: 0;
+	height: 100%
+	
+}
+
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+div.image#image3 {
+	background-image: url(image3.png);
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+
+
+}
+
+p{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 150px;
+	padding-left: 120px;
+}
+
+img {
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-bottom: 0px
+	width: 30%;
+}
+
+@media (max-width: 425px) {
+	
+	p {
+		padding-left: 0px;
+		font-size: 12px;
+		padding-top: 0px;
+	}
+
+	img {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px
+	width: 30%;
+}
+
+}

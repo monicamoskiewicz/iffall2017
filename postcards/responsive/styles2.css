@@ -1,0 +1,88 @@
+body { 
+	font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif; 
+	margin: 0;
+	padding: 0;
+	height: 100%
+	
+}
+
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+div.image#image2 {
+	/*height: 748px;
+	width: 700px;*/
+	width: 60%;
+	height: 748px;
+	background-image: url(image2.png);
+	background-size: cover;
+	/*background-position: right;*/
+	/*padding-top:11px;
+	padding-left: 30px;*/
+/*	background-position: center;*/
+}
+
+p{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 250px;
+	padding-left: 700px;
+	width: 100%
+}
+
+img {
+	padding-top: 190px;
+	padding-left: 950px;
+	padding-bottom: 0px
+}
+
+@media (max-width: 1024px) {
+	div.image#image2 {
+		background-image: url(image2.png);
+		background-size: cover;
+		width: 1024px;
+		height: 900px;
+	
+	}
+	p {
+		padding-left: 500px;
+		padding-top: 150px;
+	}
+	img {
+	padding-top: 400px;
+	padding-left: 900px;
+	padding-bottom: 0px;
+	width: 30%;
+}
+
+}
+
+
+@media (max-width: 425px) {
+	div.image#image2 {
+		background-image: url(image2.png);
+		background-size: cover;
+		width: 300%;
+		height: 120%;
+	
+	}
+	p {
+		padding-left: 10px;
+		padding-top: 700px;
+		font-size: 53px;
+		text-align: left;
+	}
+	img {
+	padding-top: 400px;
+	padding-left: 600px;
+	padding-bottom: 0px;
+	width: 30%;
+}
+
+}
