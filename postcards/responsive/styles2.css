@@ -22,6 +22,7 @@ div.image#image2 {
 	height: 748px;
 	background-image: url(image2.png);
 	background-size: cover;
+	top: 0;
 	/*background-position: right;*/
 	/*padding-top:11px;
 	padding-left: 30px;*/
@@ -68,21 +69,27 @@ img {
 	div.image#image2 {
 		background-image: url(image2.png);
 		background-size: cover;
-		width: 300%;
-		height: 120%;
+		width: 300px;
+		height: 300px;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
 	
 	}
 	p {
-		padding-left: 10px;
-		padding-top: 700px;
-		font-size: 53px;
-		text-align: left;
+		padding-left: 40px;
+		padding-top: 400px;
+		font-size: 25px;
+		text-align: center;
 	}
 	img {
-	padding-top: 400px;
-	padding-left: 600px;
+	padding-top: 100px;
+	padding-left: 25px;
 	padding-bottom: 0px;
-	width: 30%;
+	width: 350px;
+	position: center;
+
 }
 
 }
