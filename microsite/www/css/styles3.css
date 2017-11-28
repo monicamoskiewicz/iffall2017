@@ -1,0 +1,182 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+  background-color: #FFC200;
+
+}
+
+h1 {
+  color: black;
+  font-size: 70px;
+  float: right;
+  padding-right: 90px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#first {
+  float: right;
+  width: 500px;
+  padding-right: 200px;
+  margin-bottom: 90px;
+
+}
+
+#second{
+  float: left;
+  width: 500px;
+  padding-left: 200px;
+  margin-bottom: 90px;
+}
+
+#main {
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-right: 0;
+  margin: 0;
+  width: 1200px;
+
+
+}
+
+  .button_container {
+        border: 1px solid #ddd;
+        margin: 0 10px 10px 0;
+        padding: 20px;
+        width: 250px;
+        height: 250px;
+        float: left;
+        overflow: hidden;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      a#btn_nostalgia img {
+   /*     padding-top: 50px;*/
+        width: 200px;
+      }
+      
+
+      a#btn_nostalgia:hover {
+        filter: blur(5px);
+        display: block;
+      }
+
+        a#btn_orange img {
+   /*     padding-top: 50px;*/
+        width: 200px;
+      }
+      
+
+      a#btn_orange:hover {
+        filter: blur(5px);
+        display: block;
+      }
+
+      a#btn_blonde img {
+        width: 200px;
+      }
+      
+
+      a#btn_blonde:hover {
+        filter: blur(5px);
+        display: block;
+      }
+
+       a#btn_lonny img {
+        width: 200px;
+      }
+      
+
+      a#btn_lonny:hover {
+        filter: blur(5px);
+        display: block;
+      }
+
+       a#btn_provider img {
+        width: 200px;
+      }
+      
+
+      a#btn_provider:hover {
+        filter: blur(5px);
+        display: block;
+      }
+
+       a#btn_endless img {
+        width: 200px;
+      }
+      
+
+      a#btn_endless:hover {
+        filter: blur(5px);
+        display: block;
+      }
+
+       a#btn_lens img {
+        width: 200px;
+      }
+      
+
+      a#btn_lens:hover {
+        filter: blur(5px);
+        display: block;
+      }
+
+      a#btn_biking img {
+        width: 200px;
+      }
+      
+
+      a#btn_biking:hover {
+        filter: blur(5px);
+        display: block;
+      }
+.dropdown {
+  float: left;
+  overflow: hidden;
+   padding-left: 90px;
+   padding-top: 60px;
+
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-size: 50px;
+
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  z-index: 100;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 5px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 2px solid hsla(360, 100%, 100%, 0);
+  font-size: 30px;
+}
+
+.dropdown-content a:hover {
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
