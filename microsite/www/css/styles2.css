@@ -8,34 +8,60 @@ body, html {
 	font-family: 'Barlow', sans-serif;
 }
 
+#content {
+  padding-top: 4%;
+}
+
 p {
 	color: #7DB694;
-	padding-top: 226px;
-	padding-left: 31px;
-	width: 500px;
-	float: left;
 	line-height: 1.5;
+  text-align: justify;
+  font-size: 17px;
+  margin: 0;
+  width: 30%;
+  float: left;
+  padding-left: 29%;
 }
 
 h1 {
 	color: white;
 	font-size: 70px;
-	float: right;
-	padding-right: 90px;
+	text-align: right;
+	padding-right: 6%;
+  margin-bottom: 0;
 }
 
-img {
-	float: right;
-	padding-top: 225px;
-	padding-right: 0;
-
+/*#image {
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+  
+}*/
+#big {
+  width: 30%;
+  float: right;
+  padding-right: 6%;
 }
+
+@media (max-width: 960px) {
+  p {
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  #big {
+    float: left;
+    padding-right: 0;
+    padding-left: 29%;
+    width: 50%;
+  }
+ } 
+
 
 .dropdown {
   float: left;
   overflow: hidden;
   padding-left: 90px;
-  padding-top: 60px;
+ /* padding-top: 60px;*/
 
 }
 
@@ -65,7 +91,7 @@ img {
   display: block;
   text-align: left;
   border-bottom: 2px solid hsla(360, 100%, 100%, 0);
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .dropdown-content a:hover {
